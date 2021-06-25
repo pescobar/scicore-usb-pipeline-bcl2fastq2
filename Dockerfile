@@ -28,6 +28,6 @@ RUN unzip bcl2fastq2-v2.17.1.14.tar.zip && \
     tar xf bcl2fastq2-v2.17.1.14.tar.gz && \
     mkdir -p /usr/local/src/bcl2fastq/build && \
     cd /usr/local/src/bcl2fastq/build && \
-    ../src/configure --prefix==/usr/local && \
+    ../src/configure --prefix=/usr/local && \
     make && \
     make install
